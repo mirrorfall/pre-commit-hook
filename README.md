@@ -7,7 +7,7 @@ This script is a pre-commit hook for Git that runs [Gitleaks](https://github.com
 To use the hook, simply run the inslattation script in the root directory of your git repository:
 
 ```bash
-./install-pre-commit.sh
+curl -sSfL https://raw.githubusercontent.com/mirrorfall/pre-commit-hook/main/install-pre-commit.sh | bash
 ```
 The script also contains two variables:
 
